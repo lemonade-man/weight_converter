@@ -6,4 +6,4 @@ units = {
 
 def convert(num, cFrom, cTo):
 	num = int(num)
-	return int(f"{(num*units[cFrom])/units[cTo]}{cTo}")
+	return f"{(num*units[cFrom])/units[cTo]}{cTo}"
